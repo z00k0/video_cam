@@ -1,0 +1,28 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.main{
+    width: 50%;
+    height: 100%;
+    margin:0 auto;
+    padding-top: 50%;
+}
+.login {
+    text-align: center;
+    font-size: 22px;
+}
+.login-wrapper{
+    padding-top: 7%;
+}
+.image{
+    height: auto;
+    width: 100%;
+    margin: auto auto;
+}

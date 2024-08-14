@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeroAspect</title>
+    <!-- CSS only -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <img src="{% static 'img/logo.png' %}" alt="" class="image">
+            <div class="login-wrapper" onclick="window.location='login/vk-oauth2'">
+                <div class="login">
+                    <a href="login/vk-oauth2">Войти через вк</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
